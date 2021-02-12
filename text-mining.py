@@ -61,7 +61,7 @@ def get_user_input(key_input: str) -> list:
     To perform the query, the input is stripped of whitespace
     and looks for a comma to separate terms
 
-    :param key_input: String to set as key index to avoid errors more than one input is present
+    :param key_input: String to set as key index to avoid errors when more than one input is present
     :return: User input without comma and white space
     :rtype: list
     """
